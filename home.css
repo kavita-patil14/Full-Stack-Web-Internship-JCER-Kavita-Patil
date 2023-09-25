@@ -1,0 +1,136 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+   
+.room{
+    height: 500px;
+  width: 900px;
+  background-image: url('room.jpeg');
+  background-size: cover;
+  float:left;
+  border-radius: 50px;
+  margin-left: 30px;
+  margin-top: 50px;
+
+}
+
+.table{
+    
+    height: 500px;
+    width: 900px;
+  background-image: url('tbl.jpeg');
+  background-size: cover;
+  float:right;
+  border-radius: 50px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+#booktable{
+    margin-top: 100px;
+}
+
+#bookroom{
+    margin-top: 135px;
+}
+#booktable,#bookroom{
+  background-color: rgb(207, 201, 198);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  cursor: pointer;
+  box-shadow: #844c32;
+}
+
+
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 700px;
+  }
+
+  .col{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    max-width: 280px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+.rating{
+    color: rgb(255, 0, 0);
+}
+
+.roomcontainer p{
+  margin-top: 20px;
+}
+
+.roomcontainer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+  width: 500px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+
+button[type=submit], button[type=reset] {
+  background-color: #844c32;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+input[type=text], input[type=tel], input[type=time],input[type=date], select {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 5px;
+  width: 40%;
+}
+
+input[type=text], input[type=tel], input[type=time], select:hover{
+  background-color: #fafafa;
+}
+label{
+  display: inline-block;
+  width: 100px;
+  margin-left: 0px;
+}
+
+#recipt{
+  background-color: #fafafa00;
+  width: 400px;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 200px;
+}
+a{
+  text-decoration: none;
+  color:rgb(255, 255, 255) ;
+}
+
+@media print {
+  body,#bnh{
+    visibility: hidden; 
+ } 
+ .recipt{
+  visibility: visible;
+  margin-top: -400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+}
