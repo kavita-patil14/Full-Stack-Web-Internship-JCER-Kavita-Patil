@@ -1,2 +1,2 @@
-This is a side-project where I have created a movie reservation UI using backbone.
-It took me about 8-10 hours to complete this. It is just for learning right now .
+Full-Stack-Web-Internship-JCER-Kavita-Patil
+A drive to full stack website creation.
